@@ -1,0 +1,328 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family:Arial, Helvetica, sans-serif;
+    list-style: none;
+    list-style-position: inside;
+}
+
+main{
+    height: 700px;
+    margin-top: 100px;
+}
+
+header{
+    min-height: 100px;
+    width: 100%;
+    overflow: hidden;
+    background: linear-gradient(180deg,black 50%,gray);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 10;
+}
+
+header img{
+    height: 70px;
+    margin: 15px 50px;  
+}
+
+header nav{
+    width: 850px;
+    height: 70px;
+    margin: 15px 0px; 
+    float: right;
+}
+
+header nav ul{
+    width: 850px;
+    height: 70px;
+}
+
+header nav ul li{
+    width: 200px;
+    height: 70px;
+    float: left;
+
+}
+
+header nav ul li a {
+    color: white;
+    text-align: center;
+    display: block;
+    line-height: 60px;
+    width: 200px;
+    height: 70px;
+    text-decoration: none;
+}
+
+header nav ul li a:hover{
+    background-color: gold;
+    color: black;
+}
+
+.banner{
+    height: 60vh;
+    background-color:gold;
+}
+
+.banner .img-division{
+    width: 80%;
+    height: 100%;
+    margin: auto;
+    background: url(../Images/banner.jpg) center/cover;
+    clip-path: circle(60% at 50% 10%);
+}
+.search-bar{
+    z-index: 10;
+    left: -205px;
+    top:20%;
+    position: fixed;
+    background-color: black;
+    width: 250px;
+    height: 50px;
+    border-radius: 0px 20px 20px 0px ;
+    -webkit-border-radius: 0px 20px 20px 0px ;
+    -moz-border-radius: 0px 20px 20px 0px ;
+    -ms-border-radius: 0px 20px 20px 0px ;
+    -o-border-radius: 0px 20px 20px 0px ;
+    transition: 1s all;
+    -webkit-transition: 1s all;
+    -moz-transition: 1s all;
+    -ms-transition: 1s all;
+    -o-transition: 1s all;
+}
+
+.search-bar:hover{
+    left:0;
+}
+
+.search-bar input{
+    background-color: rgb(45, 44, 44);
+    padding: 5px;
+    border-style: none;
+    border-radius: 15px;
+    position: fixed;
+    top: 19%;
+    opacity: .5;
+    width: 190px;
+    margin: 15px 0px 0px 20px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
+.search-bar input::placeholder{
+    color: white;
+    font-weight: bold;
+}
+
+.search-bar .fa-magnifying-glass{
+    position: absolute;
+    left: 85%;
+    top: 19%;
+    padding: 5px;    
+}
+
+.search-bar input:hover{
+    opacity: 1;
+}
+.search-bar input:focus{
+    background-color: white;
+}
+
+.content{
+    margin:auto;
+    text-align: center;
+    width: 80%;
+    min-height: 300px;
+}
+
+.animated-images{
+    min-height: 300px;
+    position: relative;
+    top:-120px;
+    z-index: 2;
+}
+
+.animated-images .content div:nth-of-type(1){
+    background: white url(../Images/tennisacademy.jpg) no-repeat center;
+}
+
+.animated-images .content div:nth-of-type(2){
+    background: white url(../Images/footballacademy.jpg) no-repeat center;
+}
+
+.animated-images .content div:nth-of-type(3){
+    background: white url(../Images/squashacademy.jpg) no-repeat center;
+}
+.animated-images .content div:nth-of-type(4){
+    background: white url(../Images/swimmingacademy.jpg) no-repeat center;
+}
+.animated-images .content div{
+   float: left;
+   height: 180px;
+   width: 20%;
+   margin-inline: calc(20% / 8);
+   margin-block:60px;
+   overflow: hidden;
+   border: 2px solid gold;
+   border-radius: 10px;
+   -webkit-border-radius: 10px;
+   -moz-border-radius: 10px;
+   -ms-border-radius: 10px;
+   -o-border-radius: 10px;
+}
+
+.animated-images .content div .overlay{
+    background: gold;
+    height: 100%;
+    width: 100%;
+    position: relative;
+    top: -60px;
+    left: -7px;
+    clip-path: circle(0% at 0% 0%);
+    transition: all .5s;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    -ms-transition: all .5s;
+    -o-transition: all .5s;
+}
+
+.animated-images .content div:hover .overlay{
+    clip-path: circle(80% at 0% 0%);
+    opacity: .7;
+}
+.overlay-one{
+    color: black;
+    text-align: left;
+    font-size: 24px;
+    margin: 10px;
+}
+h2{
+    color:rgb(53, 66, 162);}
+hr{
+   margin: auto;
+    width: 50%;
+    
+}
+
+section:nth-of-type(3), section:nth-of-type(4), section:nth-of-type(5), section:nth-of-type(6), section:nth-of-type(7),footer{
+    position: relative;
+}
+
+.section-one{
+    top: -150px;
+}
+.section-one .content article{
+    text-align: left;
+    display: inline-block;
+    color: rgb(53, 66, 162);;
+}
+.section-one .content .img{
+    background-image: url(../Images/about.jpg);
+    display: inline-block;
+    width: 40%;
+    height: 250px;
+    margin: 10px 10px 0px;
+    overflow: hidden;
+    border-radius: 10px 10px 0px 0px;
+   -webkit-border-radius: 10px 10px 0px 0px;
+   -moz-border-radius: 10px 10px 0px 0px;
+   -ms-border-radius: 10px 10px 0px 0px;
+   -o-border-radius: 10px 10px 0px 0px;
+}
+.section-one .content .img .img-overlay{
+    background: white;
+    height: 100%;
+    width: 100%;
+    opacity: .2;
+    position: relative;
+    clip-path: circle(0% at 50% 50%);
+    transition: 1s all;
+    -webkit-transition: 1s all;
+    -moz-transition: 1s all;
+    -ms-transition: 1s all;
+    -o-transition: 1s all;
+}
+
+.section-one .content .img:hover .img-overlay{
+    clip-path: circle(100% at 50% 50%);
+    
+}
+.section-one .content article p{
+    margin: 15px;
+    width: 500px;
+}
+
+.section-one .content article h3{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 0px;
+}
+
+.section-two{
+    top: -100px;
+}
+
+.section-two .content table{
+    width: 100%;
+    border-collapse: collapse;
+}
+.section-two .content table td{
+    width: 50%;
+    border-bottom: 2px solid #ddd;
+}
+
+.section-two .content table tr:nth-child(even){
+    background-color: lightgray;
+}
+
+.section-three{
+    top: -150px;
+}
+.section-three .content div{
+    width: 350px;
+    display: inline-block;
+    margin: 5px;
+    box-shadow: black 0px 0px 7px
+}
+.section-three .content img{
+    width: 320px;
+    margin: 2px;
+}
+
+.section-three .content article p{
+    text-align: left;
+    padding: 5px;
+}
+
+h4{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: left;
+}
+
+.section-four{
+    top: -150px;
+}
+.section-four .content{
+    background-color:  rgb(245, 245, 26);
+}
+
+.section-four .content img, .content iframe{
+    height:250px;
+    width:500px;
+   margin: 2px 20px;
+}
+
+.map{
+    top: -150px;
+}
+
+footer{
+    top: -150px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    margin: auto;
+}

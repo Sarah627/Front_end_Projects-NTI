@@ -1,0 +1,269 @@
+*{
+    margin:0px;
+    padding: 0px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body{
+    height: 2000px;
+    padding-top: 100px;
+}
+.content{
+    margin:0px 200px;
+    text-align: center;
+    width: 1100px;
+}
+
+.navigation{
+    background-color: black;
+    position: fixed;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+    z-index: 10;
+}
+
+.navigation img{
+    width: 70px;
+    height: 70px;
+    margin: 10px 0px;
+    float: left;
+}
+.clearfix{
+    clear: both;
+}
+
+.content ul{
+    float: right;
+}
+
+.navigation .content ul li{
+    list-style-type: none;
+    list-style-position: inside;
+    display: inline-block;
+    color: white;
+    margin: 30px 10px 0px 10px;
+    
+    
+}
+
+.navigation .content a{
+    text-decoration: none;
+    background-color: black;
+    opacity: 0.5;
+    padding: 25px 5px;
+    color: white;
+    border-radius: 2%;
+}
+.navigation .content a:hover{
+    opacity: 1;
+    background-color: #0166B1;
+}
+
+.section1{
+    background-color: white;
+    height: 600px;
+}
+
+.section1 img{
+    margin: 40px 65px 10px;
+    opacity: 0.5;
+
+}
+
+#race-car{
+    width: 180px;
+    height: 180px;
+}
+
+
+.section1 h2,.section1 p{
+    display: inline-block;
+    width: 20%;
+    margin: 18px;
+    vertical-align: top;
+    opacity: 0.5;
+}
+
+
+.section1 a{
+    text-decoration: none;
+    background-color: black;
+    opacity: 0.5;
+    margin: 80px 70px;
+    padding: 10px;
+    color: white;
+    border-radius: 2%;
+}
+
+.section1 a:hover{
+    background-color:#0166B1;
+}
+
+
+.section2{
+    background-color:#0166B1;
+    position: relative;
+}
+
+.section2 h1{
+    color: rgb(247, 247, 247);
+    opacity: 0.8;
+    padding: 30px;
+}
+.section2 img{
+    margin: 30px 5px;
+    border-radius: 5%;
+}
+
+.section2 img:hover{
+    transform: scale(1.2);
+    border: white solid 2px;
+    
+}
+
+.section2 .slider{
+    position: absolute;
+    top:341px;
+    right:740px;
+}
+.section2 .slider div{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: gray;
+}
+
+.section2 .slider div:hover{
+    background-color: #0166B1;
+    border-width: 2px;
+    border-style: solid;
+    border-color: gray;
+}
+
+
+.section3{
+    background-color: white;
+}
+
+.section3  .text{
+    width: 39%;
+    display: inline-block;
+    margin-top:44px ;
+    vertical-align: top;
+}
+
+.section3  .text p {
+    width: 90%;
+    text-align: justify;
+    margin: 5px 0px 20px 0px;
+}
+
+.section3 p, .section3 h2{
+    opacity: 0.5;
+}
+
+.section3 img{
+    margin: 5px 5px;
+    border-radius: 2%;
+    padding: 5px;
+    width: 39%;
+    cursor:pointer;
+}
+
+.section3 img:hover{
+    border: gray solid 2px;
+}
+
+.section3 a{
+    text-decoration: none;
+    background-color: #0166B1;
+    opacity: 1;
+    margin: 20px;
+    padding: 10px;
+    color: white;
+    border-radius: 2%;
+}
+
+.section3 a:hover{
+    background-color: black;
+    opacity: .5;
+}
+
+.section4{
+    position: relative;
+    height: 600px;
+}
+
+h1{
+    opacity: 0.5;
+}
+
+.section4 img{
+    position:absolute;
+   border-radius: 3%;
+}
+
+.section4 img:hover{
+    border: rgb(239, 236, 236) solid 5px;
+
+}
+.one{
+    left: 100px;
+}
+
+.one:hover{
+    z-index: 1;
+    transform: scale(1.05);
+}
+.two{
+    left: 200px;
+}
+
+.two:hover{
+    z-index: 1;
+    transform: scale(1.05);
+}
+
+.three{
+    left: 300px;
+}
+
+.three:hover{
+    z-index: 1;
+    transform: scale(1.05);
+}
+
+.four{
+    left: 400px;
+}
+
+.four:hover{
+    z-index: 1;
+    transform: scale(1.05);
+}
+
+.five{
+    left: 500px;
+}
+
+.five:hover{
+    z-index: 1;
+    transform: scale(1.05);
+}
+.six{
+    left:600px;
+}
+.six:hover{
+    z-index: 1;
+    transform: scale(1.05);
+}
+.seven{
+    left:700px;
+}
+
+.seven:hover{
+    z-index: 1;
+    transform: scale(1.05);
+}
