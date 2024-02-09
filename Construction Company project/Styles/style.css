@@ -1,0 +1,164 @@
+/* CSS reset */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+/* body setup */
+body{
+    min-height: 100vh;
+}
+/* heading - contacts bar & navbar -  */
+.contacts-bar{
+    height: 5vh;
+    background-color: gold;
+}
+
+.navbar .navbar-brand{
+    color: gold;    
+}
+
+.navbar .navbar-brand::first-line{
+    color: white;
+    text-transform: uppercase;
+}
+
+.navbar .navbar-collapse ul li a{
+    color: white;
+}
+
+.navbar .navbar-collapse ul li:hover{
+    background-color: rgb(255, 215, 0,.5);
+}
+
+.carousel .carousel-inner .carousel-item .carousel-caption h1{
+    color: gold;
+}
+
+.carousel .carousel-inner .carousel-item .carousel-caption h1::first-line{
+    color: white;
+}
+.section-two button, .btn-group button{
+    background-color: gold;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+    margin-inline: 10px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+/* section two */
+
+.section-two-container{
+    padding: 50px;
+}
+
+.section-two h3{
+    color: gold;
+}
+
+.section-two p{
+    font-size: .8em;
+}
+
+/* section-three */
+.section-three-container{
+    background-color: lightcyan;
+    text-align: center;
+}
+
+.box{
+    display: inline-block;
+    height: 140px;
+    width: 140px;
+    visibility: hidden;
+}
+
+.circle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    visibility: visible;
+}
+
+.Mega{
+    height: 140px;
+    width: 140px;
+    background-color: rgb(255, 215, 0,0.3);
+}
+
+.large{
+    height: 120px;
+    width: 120px;
+    background-color: rgb(255, 215, 0,0.5);
+}
+
+.medium{
+
+    height: 100px;
+    width: 100px;
+    background-color: rgb(255, 215, 0,0.7);
+}
+
+.small{
+
+    height: 80px;
+    width: 80px;
+    background-color:white;
+}
+
+/* section four */
+
+.section-four-container{
+    margin-block: 30px;
+}
+.section-four-container .row .card .card-body .card-link{
+    background-color: rgb(255, 215, 0);
+    color: white;
+    padding: 10px;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
+
+/* section five */
+
+.section-five-container{
+    background-color: gold;
+    padding: 20px;
+}
+
+/* section six */
+
+article{
+    display: inline-block;
+    list-style-position: inside;
+    padding: 30px;
+}
+.social i{
+  margin-inline: 5px;
+}
+
+.section-six-container .img{
+    background: url(../Images/6.png) no-repeat;
+}
+
+.section-six-container .overlay{
+    display: flex;
+    padding: 40px;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0,0.7);
+}
+
+
